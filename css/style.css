@@ -1,5 +1,7 @@
 /*** General ***/
-
+h1,h2,h3,h4,h5 {
+    display: inline-block;
+}
 /*** Utility ***/
 .height-25 {
     height: 25px;
@@ -17,6 +19,10 @@
     height: 200px;
 }
 
+.t-white {
+    color: white;
+}
+
 .bg-darkblue {
     background-color: #2c3e50;
 }
@@ -27,6 +33,15 @@
     background-color: #1abc9c;
 }
 
-.border {
+.border-w {
     border: 1px solid white;
+}
+.border-b {
+    border: 1px solid black;
+}
+.border-round {
+    border-radius: 15px;
+}
+.t-align {
+    text-align: center;
 }
