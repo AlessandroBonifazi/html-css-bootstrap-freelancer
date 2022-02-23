@@ -1,7 +1,16 @@
 /*** General ***/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .max-w-l {
     max-width: 960px;
 }
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
 /*** Utility ***/
 .bg-darkblue {
     background-color: #2c3e50;
@@ -11,13 +20,6 @@
 }
 .bg-green {
     background-color: #1abc9c;
-}
-
-.border-w {
-    border: 1px solid white;
-}
-.border-b {
-    border: 1px solid black;
 }
 .border-round {
     border-radius: 15px;
