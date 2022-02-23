@@ -1,6 +1,6 @@
 /*** General ***/
-h1,h2,h3,h4,h5 {
-    display: inline-block;
+.max-w-l {
+    max-width: 960px;
 }
 /*** Utility ***/
 .height-25 {
@@ -40,4 +40,7 @@ h1,h2,h3,h4,h5 {
 }
 .border-round {
     border-radius: 15px;
+}
+.h-2 {
+    height: 2px;
 }
