@@ -16,23 +16,44 @@
 <body>
     <!-- Header -->
     <header class="container-fluid">
-        <div class="row height-100 bg-darkblue align-items-center justify-content-around">
-            <div class="col-4 height-50 border-w t-align">
-            </div>
-            <div class="col-1 height-50 border-w"></div>
+        <div class="row height-100 bg-darkblue align-items-center">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand t-white" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
 
     <!-- Jumbotron -->
     <div class="container-fluid py-4 bg-green t-white">
-        <div class="row justify-content-center">
-            <div class="col-sm-3">
+        <div class="row gy-5 justify-content-center">
+            <div class="col-6 col-md-4 col-lg-2">
                 <img class="img-fluid" src="img/avatar.svg" alt="avatar pic">
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-7 t-align">
+            <div class="col-7 text-center">
                 <h1>START BOOTSTRAP</h1>
             </div>
         </div>
@@ -42,7 +63,7 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-md-6 t-align">
+            <div class="col-md-6 text-center">
                 <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
             </div>
         </div>
@@ -51,78 +72,83 @@
     <!-- Portfolio -->
     <main class="container-md py-5">
         <div class="row my-2 justify-content-center">
-            <div class="col-5 t-align">
+            <div class="col-12  text-center">
                 <h3>PORTFOLIO</h3>
             </div>
-        </div>
-
-        <div class="row justify-content-center">
             <div class="col-6 border-b height-25"></div>
         </div>
 
         <div class="row">
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/cabin.png" alt="cabin pic">
             </div>
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/cake.png" alt="cake pic">
             </div>
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/circus.png" alt="circus pic">
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/game.png" alt="game pic">
             </div>
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/safe.png" alt="safe pic">
             </div>
-            <div class="col-md-4 g-4">
+            <div class="col-12 col-md-6 col-lg-4 g-4">
                 <img class="img-fluid border-round" src="img/submarine.png" alt="sub pic">
             </div>
+        </div>
     </main>
 
     <!-- About -->
     <div class="container-fluid py-4 bg-green t-white">
         <div class="row my-2 justify-content-center">
-            <div class="col-5 t-align">
+            <div class="col-5 text-center">
                 <h3>ABOUT</h3>
             </div>
         </div>
 
-        <div class="row my-2 justify-content-around">
-            <div class="col-md-5 g-4 height-200 border-w"></div>
-            <div class="col-md-5 g-4 height-200 border-w"></div>
+        <div class="row my-2">
+            <div class="col-8 offset-2 col-md-4 offset-lg-1 col-lg-5 gy-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate tempore at
+                assumenda quia quos quisquam iusto ducimus, facere doloremque nam ratione dolore
+                necessitatibus modi, corrupti eos? Rerum veritatis suscipit architecto?
+            </div>
+            <div class="col-8 offset-2 offset-md-0 col-md-4 col-lg-5 gy-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate tempore at
+                assumenda quia quos quisquam iusto ducimus, facere doloremque nam ratione dolore
+                necessitatibus modi, corrupti eos? Rerum veritatis suscipit architecto?
+            </div>
         </div>
+
+        <div class="row"></div>
     </div>
 
     <!-- Contact Me -->
     <div class="container-fluid py-4">
-        <div class="row my-2 justify-content-center">
-            <div class="col-5 t-align">
+        <div class="row my-2">
+            <div class="col text-center">
                 <h3>CONTACT ME</h3>
             </div>
         </div>
 
-        <div class="row my-2 justify-content-center">
-            <div class="col-6 height-400 border-b"></div>
+        <div class="row my-2">
+            <div class="col-8 offset-2 col-lg-10 offset-lg-1 height-400 border-b"></div>
         </div>
     </div>
 
-    <!-- Info -->
+    <!-- Footer Info -->
     <footer class="container-fluid py-4 bg-lightblue t-white">
-        <div class="row my-2 justify-content-center">
-            <div class="col-md-3 g-4 height-80 border-w"></div>
-            <div class="col-md-3 g-4 height-80 border-w"></div>
-            <div class="col-md-3 g-4 height-80 border-w"></div>
+        <div class="row my-2">
+            <div class="col-12 col-md-4 g-3 height-80 border-w"></div>
+            <div class="col-12 col-md-4 g-3 height-80 border-w"></div>
+            <div class="col-12 col-md-4 g-3 height-80 border-w"></div>
         </div>
     </footer>
 
     <div class="container-fluid py-4 bg-darkblue t-white">
         <div class="row justify-content-center">
-            <div class="col-3 height-25 .t-align">
+            <div class="col-12 height-25 text-center">
                 <span>Copyright</span>
             </div>
         </div>
